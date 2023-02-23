@@ -29,6 +29,18 @@ public class Main
 †***************************************
 Entrada
 
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner teclado = new Scanner(System.in);
+	    System.out.print("Nome do aluno: ");
+	    String nome = teclado.nextLine();
+	    System.out.print("Nota do aluno: ");
+	    float nota = teclado.nextFloat();
+		System.out.format("A nota da %s é %.1f \n", nome, nota);
+	}
+}
 -----------------------------------------------
 
 -----------------------------------------------
