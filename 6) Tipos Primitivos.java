@@ -16,11 +16,13 @@ public class Main
 }
 
 -----------------------------------------------
+ 
 public class Main
 {
 	public static void main(String[] args) {
-	    String nome = Jéssica;
-		System.out.println("A nota da %s é %.2.f \n", nome, nota);
+	    String nome = "Jéssica";
+	    float nota = (float) 8.5;
+		System.out.format("A nota da %s é %.2f \n", nome, nota);
 	}
 }
 
