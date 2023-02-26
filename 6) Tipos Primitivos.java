@@ -28,10 +28,9 @@ public class Main
 
 †***************************************
 Entrada
-
+package tipoprimitivo;
 import java.util.Scanner;
-public class Main
-{
+public class TipoPrimmitivo {
 	public static void main(String[] args) {
 	    Scanner teclado = new Scanner(System.in);
 	    System.out.print("Nome do aluno: ");
@@ -41,10 +40,33 @@ public class Main
 		System.out.format("A nota da %s é %.1f \n", nome, nota);
 	}
 }
+-----------------------------------------------Conversão------------------------------------------
+package testetipos;
+public TesteTipos {
+	public static void main(String[] args) {
+	    int idade = 30;
+	    String valor = Integer.toString(idade);
+		System.out.println(valor);
+	}
+}
+
+	
 -----------------------------------------------
 
+package testetipos;
+public TesteTipos {
+	public static void main(String[] args) {
+		String valor = "30";
+		int idade = Integer.parseInt(valor);
+		System.out.println(idade);
+	}
+}
 -----------------------------------------------
-
-
------------------------------------------------
-
+package testetipos;
+public TesteTipos {
+	public static void main(String[] args) {
+		String valor = "30.5";
+		float idade = Float.parseFloat(valor);
+		System.out.println(idade);
+	}
+}
